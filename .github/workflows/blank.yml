@@ -37,6 +37,6 @@ jobs:
         uses: actions/upload-artifact@main
         with:
           name: CoreELEC-frameware-${{env.version}}
-          path: ${{ env.target_img_name.img.gz }}
+          path: ${{ env.target_img_name }}.img.gz
 
     
