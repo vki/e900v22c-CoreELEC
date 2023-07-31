@@ -92,6 +92,6 @@ mv ${source_img_name}.img ${target_img_name}.img
 echo "Compressing CoreELEC image"
 gzip ${target_img_name}.img
 sha256sum ${target_img_name}.img.gz > ${target_img_name}.img.gz.sha256
-pwd
+echo `pwd`/${target_img_name}.img.gz
 ls -l
 
