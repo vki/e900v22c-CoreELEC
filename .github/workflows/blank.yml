@@ -38,6 +38,6 @@ jobs:
         if: steps.organize.outputs.status == 'success' && !cancelled()
         with:
           name: CoreELEC-frameware-${{env.version}}
-          path: ${{ env.${target_img_name}.img.gz }}
+          path: ${{ env.target_img_name.img.gz }}
 
     
