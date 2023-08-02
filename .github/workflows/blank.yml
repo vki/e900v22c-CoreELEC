@@ -10,9 +10,9 @@ on:
   workflow_dispatch:
   
 env:
-  version: "20.2-Nexus"
-  target_img_prefix: "CoreELEC-Amlogic-ng.arm-20.2-Nexus"
-  target_img_name: "CoreELEC-Amlogic-ng.arm-20.2-Nexus-E900V22C"
+  version: "20.0-Nexus"
+  target_img_prefix: "CoreELEC-Amlogic-ng.arm-20.0-Nexus"
+  target_img_name: "CoreELEC-Amlogic-ng.arm-20.0-Nexus-E900V22C"
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
